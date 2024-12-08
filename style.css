@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(252, 228, 232);
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#search-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(237, 255, 237);
+}
+
+#search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color:  #007BFF;
+    color: aliceblue;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+#results-container {
+    padding: 30px;
+    text-align: center;
+    border: 2px solid rgb(17, 2, 59);
+    font-size: 16px;
+    display: flexbox;
+    justify-content: center;
+    margin: 20px;
+    background-color: #fff;
+}
+
+.portfolio-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #007BFF; /* Bootstrap blue */
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.portfolio-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    #search-input {
+        width: 70%;
+        font-size: 14px;
+    }
+
+    #search-button {
+        font-size: 14px;
+    }
+}
